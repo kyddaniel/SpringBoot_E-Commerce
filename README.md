@@ -71,6 +71,7 @@ To start the frontend side of the application, please follow the below steps
 
 ### Configure the connection to your local PostgreSQL database
 1. In ```src/main/resources/application.properties```, please configure the following to your database name
+   
    ```sh
    spring.datasource.url=jdbc:postgresql://localhost:5432/<your-database-name>
    ```
